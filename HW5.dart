@@ -3,7 +3,7 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
-  print('Choose diffuculty level: easy|medium|hard');
+  print('Choose difficulty level: easy|medium|hard');
   String difficultyLevel = stdin.readLineSync().toString().toLowerCase();
 
   int minPasswordLength = 0;
